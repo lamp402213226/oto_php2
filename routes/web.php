@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+// 上边的/ 是网站的根目录
+
+
+// 组长: 用户路由
+Route::get('user','UserController');
+
