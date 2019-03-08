@@ -10,7 +10,12 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// 这是根目录
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+// 组员: 这是商品的路由
+Route::('goods','GoodsController');
